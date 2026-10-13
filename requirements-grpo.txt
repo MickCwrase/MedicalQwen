@@ -1,0 +1,7 @@
+# Keep this environment separate from the PPO pin in requirements.txt.
+# GRPOTrainer/GRPOConfig are not provided by trl==0.13.0.
+trl>=0.15.0
+transformers>=4.57.0
+accelerate>=1.2.0
+datasets>=3.2.0
+huggingface-hub>=0.30.0,<1.0
